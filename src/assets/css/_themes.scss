@@ -1,0 +1,42 @@
+// _themes.scss
+// 当HTML的data-theme为dark时，样式引用dark
+// data-theme为其他值时，就采用组件库的默认样式
+// 这里我只定义了两套主题方案，想要再多只需在`$themes`里加就行了
+// 注意一点是，每套配色方案里的key可以自定义但必须一致，不然就会混乱
+
+$themes: (
+  default: (
+    // 字体
+    font_color1: #606266,
+    font_color2: #0d489e, // 边框
+    // 背景
+    background_color1: #0d489e,
+    background_color2: #EAEDF4, // 头部栏
+    // 边框
+    border_color1: #DCDFE6,
+    border_color2: #0d489e
+  ),
+  sureness: (
+    // 字体
+    font_color1: #19C291,
+    font_color2: #19C291,
+    // 背景
+    background_color1: #19C291,
+    background_color2: #EAF5F1,
+    // 边框
+    border_color1: #19C291,
+    border_color2: #19C291,
+  ),
+  warning: (
+    // 字体
+    font_color1: #E6A23C,
+    font_color2: #E6A23C,
+    // 背景
+    background_color1: #E6A23C,
+    background_color2: #e6a23c69,
+    // 边框
+    border_color1: #E6A23C,
+    border_color2: #E6A23C,
+  )
+);
+
