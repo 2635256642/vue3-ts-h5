@@ -27,6 +27,12 @@ const routes: Array<RouteRecordRaw> = [
       }
     ]
   },
+  {
+    path: "/message",
+    name: "MESSAGE",
+    component: () =>
+      import("../views/message/index.vue")
+  },
 ]
 
 const router = createRouter({
