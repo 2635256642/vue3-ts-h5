@@ -1,0 +1,43 @@
+.message {
+  .img_box {
+    position: relative;
+    > img {
+      width: 100%;
+    }
+    .icon_top {
+      position: absolute;
+      top: 12px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding: 0 12px;
+      i {
+        font-size: 16px;
+      }
+    }
+    .head_img {
+      position: absolute;
+      bottom: -20px;
+      right: 12px;
+      display: flex;
+      .name {
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 70px;
+        margin-right: 10px;
+      }
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+      }
+    }
+  }
+  .main {
+    .item_box {
+      
+    }
+  }
+}

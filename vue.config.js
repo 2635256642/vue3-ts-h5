@@ -11,7 +11,7 @@ function resolve(dir) {
 
 module.exports = {
   parallel: false,
-  publicPath: '/vue3-ts-h5.github.io',
+  publicPath: './', // /vue3-ts-h5.github.io
   css: {
     loaderOptions: {
       sass: {
@@ -26,6 +26,16 @@ module.exports = {
           })
         ]
       }
+    }
+  },
+
+  pwa: {
+    iconPaths: {
+      favicon32: 'favicon.ico',
+      favicon16: 'favicon.ico',
+      appleTouchIcon: 'favicon.ico',
+      maskIcon: 'favicon.ico',
+      msTileImage: 'favicon.ico'
     }
   },
   

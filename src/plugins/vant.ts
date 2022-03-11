@@ -1,5 +1,5 @@
 import { App as VM } from 'vue'
-import { Search, Tabbar, TabbarItem, Icon, Swipe, SwipeItem, Tab, Tabs, Button, SwipeCell, Empty } from 'vant'
+import { Search, Tabbar, TabbarItem, Icon, Swipe, SwipeItem, Tab, Tabs, Button, SwipeCell, Empty, List } from 'vant'
 
 const plugins = [
   Search,
@@ -8,12 +8,13 @@ const plugins = [
   Icon,
   Tab,
   Tabs,
-  Button
+  Button,
+  List
 ]
-const useComponents = [ Swipe, SwipeItem, SwipeCell, Empty ]
+const useComponents = [Swipe, SwipeItem, SwipeCell, Empty]
 
 export const vantPlugins = {
-  install:function(vm: VM){
+  install: function (vm: VM) {
     plugins.forEach(item => {
       vm.component(item.name, item)
     })
