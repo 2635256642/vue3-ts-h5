@@ -1,6 +1,6 @@
 import {
   createRouter,
-  createWebHistory,
+  createWebHashHistory,
   Router,
   RouteRecordRaw
 } from "vue-router";
@@ -36,7 +36,8 @@ const routes: Array<RouteRecordRaw> = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  // 页面刷新路丢失 方案一 改服务器 方案二 使用Hash
+  history: createWebHashHistory(), //createWebHistory(process.env.BASE_URL),
   routes
 });
 
