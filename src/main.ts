@@ -5,6 +5,7 @@ import router from "./router"
 import { vantPlugins } from './plugins/vant'
 import 'lib-flexible'
 import { Toast } from "vant";
+import '@/assets/css/iconfont.css'
 
 const app = createApp(App);
 
