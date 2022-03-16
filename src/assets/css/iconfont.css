@@ -15,6 +15,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-zhongzhi:before {
+  content: "\e654";
+}
+
 .icon-xiangji:before {
   content: "\e63d";
 }

@@ -26,7 +26,7 @@
         </div>
         <span>购物车</span>
       </div>
-      <div class="menu_item" @click="handleInfo('/message')">
+      <div class="menu_item" @click="handleInfo('/map_echart')">
         <div>
           <van-icon name="map-marked" size="35" color="#40a9ff" />
         </div>

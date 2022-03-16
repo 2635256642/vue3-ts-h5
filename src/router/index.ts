@@ -33,6 +33,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import("../views/message/index.vue")
   },
+  {
+    path: "/map_echart",
+    name: "MAPECHART",
+    component: () =>
+      import("../views/mapEchart/index.vue")
+  },
 ]
 
 const router = createRouter({
