@@ -20,11 +20,11 @@
         </div>
         <span>朋友圈</span>
       </div>
-      <div class="menu_item" @click="handleInfo('/message')">
+      <div class="menu_item" @click="handleInfo('/classification')">
         <div>
           <van-icon name="cart-circle" size="35" color="#fa8c16" />
         </div>
-        <span>购物车</span>
+        <span>商品分类</span>
       </div>
       <div class="menu_item" @click="handleInfo('/map_echart')">
         <div>
@@ -32,7 +32,7 @@
         </div>
         <span>地图</span>
       </div>
-      <div class="menu_item" @click="handleInfo('/message')">
+      <div class="menu_item" @click="handleInfo('/video')">
         <div>
           <van-icon name="music" size="35" color="#000000" />
         </div>

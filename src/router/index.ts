@@ -39,6 +39,24 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import("../views/mapEchart/index.vue")
   },
+  {
+    path: "/video",
+    name: "VIDEO",
+    component: () =>
+      import("../views/video/index.vue")
+  },
+  {
+    path: "/classification",
+    name: "CLASSIFICATION",
+    component: () =>
+      import("../views/classification/index.vue")
+  },
+  {
+    path: "/product_list",
+    name: "PRODUCT_LIST",
+    component: () =>
+      import("../views/product/list.vue")
+  },
 ]
 
 const router = createRouter({

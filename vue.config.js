@@ -11,7 +11,7 @@ function resolve(dir) {
 
 module.exports = {
   parallel: false,
-  publicPath: './', // /vue3-ts-h5.github.io
+  publicPath: process.env.NODE_ENV === 'development' ? './' : '/vue3-ts-h5.github.io',
   css: {
     loaderOptions: {
       sass: {

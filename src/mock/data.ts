@@ -73,4 +73,89 @@ const resource = [
   }
 ]
 
-export { resource }
+const category = [
+  {
+    title: '家电 数码 手机',
+    children: [
+      {
+        title: '家电',
+        child: [
+          {
+            id: 1,
+            img: '1.png',
+            name: '生活电器'
+          },
+          {
+            id: 2,
+            img: '2.png',
+            name: '厨房电器'
+          },
+          {
+            id: 3,
+            img: '3.png',
+            name: '扫地机器人'
+          }
+        ]
+      },
+      {
+        title: '数码',
+        child: [
+          {
+            id: 4,
+            img: '4.png',
+            name: '游戏主机'
+          },
+          {
+            id: 5,
+            img: '5.png',
+            name: '数码相机'
+          }
+        ]
+      },
+      {
+        title: '手机',
+        child: [
+          {
+            id: 6,
+            img: '6.png',
+            name: '华为手机'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    title: '女装 男装 搭配',
+    children: []
+  },
+  {
+    title: '家具 家饰 家纺',
+    children: []
+  },
+  {
+    title: '运动 户外 乐器',
+    children: []
+  },
+  {
+    title: '游戏 动漫 影视',
+    children: []
+  },
+  {
+    title: '美妆 清洁 宠物',
+    children: []
+  },
+  {
+    title: '工具 装修 建材',
+    children: []
+  },
+  {
+    title: '鞋靴 箱包 配件',
+    children: []
+  },
+  {
+    title: '玩具 孕产 用品',
+    children: []
+  }
+]
+
+export { resource, category }

@@ -148,10 +148,11 @@ export default defineComponent({
           }
         }
       });
+      const url = process.env.NODE_ENV === 'development' ? '' : '/vue3-ts-h5.github.io'
       //展示对应的省
       function showProvince(eName: any, param: any) {
         // console.log('展开省:', eName, param)
-        axios.get(`/map/province/${eName}.json`).then((result: any) => {
+        axios.get(url + `/map/province/${eName}.json`).then((result: any) => {
           echarts.registerMap(param, result.data);
           initEcharts(param);
         })
@@ -160,7 +161,7 @@ export default defineComponent({
       function showCitys(cName: any, param: any) {
         // console.log('展开县:', cName, param)
         // 显示县级地图
-        axios.get(`/map/city/${cName}.json`).then((result: any) => {
+        axios.get(url + `/map/city/${cName}.json`).then((result: any) => {
           echarts.registerMap(param, result.data);
           initEcharts(param);
         })
@@ -169,7 +170,7 @@ export default defineComponent({
       function showC(cName: any, param: any) {
         // console.log('展开区/县:', cName, param)
         // 显示县级地图
-        axios.get(`/map/county/${cName}.json`).then((result: any) => {
+        axios.get(url + `/map/county/${cName}.json`).then((result: any) => {
           echarts.registerMap(param, result.data);
           initEcharts(param);
         })

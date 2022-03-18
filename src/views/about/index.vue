@@ -129,7 +129,6 @@ export default defineComponent({
       if(containerDom) {
         containerDom.style.transition = "transform .6s";
         containerDom.style.transform = "translateY(" + -(100 / 3.75) + "vw)";
-        console.log(containerDom.style.transform)
       }
     })
 
