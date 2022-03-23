@@ -57,6 +57,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import("../views/product/list.vue")
   },
+  {
+    path: "/product",
+    name: "PRODUCT",
+    component: () =>
+      import("../views/product/index.vue")
+  },
 ]
 
 const router = createRouter({

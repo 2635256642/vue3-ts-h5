@@ -1,0 +1,48 @@
+.list {
+  .icon_top {
+    display: flex;
+    background-color: #fff;
+    padding: 0 10px;
+    // border-bottom: 1px #ebedf0 solid;
+    box-sizing: border-box;
+    height: 50px;
+    i {
+      line-height: 50px;
+      font-size: 18px;
+      margin-right: 10px;
+      color: #666;
+    }
+  }
+  .van-tabs {
+    .van-cell {
+      .column_box {
+        display: flex;
+        .column_img {
+          width: 140px;
+          margin-right: 20px;
+          img {
+            width: 100%;
+          }
+        }
+        .column {
+          width: 200px;
+          .title {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 15px;
+          }
+          .type {
+            color: #999;
+            font-size: 14px;
+            margin: 10px 0;
+          }
+          .price {
+            color: #ee0a24;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

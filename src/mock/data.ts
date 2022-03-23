@@ -158,4 +158,26 @@ const category = [
   }
 ]
 
-export { resource, category }
+const productList = [
+  {
+    title: '推荐',
+    children: [
+      {
+        src: '1.png',
+        title: '无印良品 女式粗棉线条纹长袖T恤',
+        type: '黑*横条 L',
+        price: '￥ 70'
+      }
+    ]
+  },
+  {
+    title: '商品',
+    children: []
+  },
+  {
+    title: '价格',
+    children: []
+  }
+]
+
+export { resource, category, productList }

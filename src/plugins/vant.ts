@@ -1,5 +1,5 @@
 import { App as VM } from 'vue'
-import { Search, Tabbar, TabbarItem, Icon, Swipe, SwipeItem, Tab, Tabs, Button, SwipeCell, Empty, List,Sidebar, SidebarItem } from 'vant'
+import { Search, Tabbar, TabbarItem, Icon, Swipe, SwipeItem, Tab, Tabs, Button, SwipeCell, Empty, List, Sidebar, SidebarItem, Cell } from 'vant'
 
 const plugins = [
   Search,
@@ -11,7 +11,8 @@ const plugins = [
   Button,
   List,
   Sidebar,
-  SidebarItem
+  SidebarItem,
+  Cell
 ]
 const useComponents = [Swipe, SwipeItem, SwipeCell, Empty]
 

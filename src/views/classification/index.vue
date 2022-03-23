@@ -12,7 +12,6 @@
           <div @click="onClickButton">搜索</div>
         </template>
       </van-search>
-
     </div>
 
     <div class="main">

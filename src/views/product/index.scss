@@ -1,0 +1,16 @@
+.product {
+  .icon_top {
+    display: flex;
+    background-color: #fff;
+    padding: 0 10px;
+    // border-bottom: 1px #ebedf0 solid;
+    box-sizing: border-box;
+    height: 50px;
+    i {
+      line-height: 50px;
+      font-size: 18px;
+      margin-right: 10px;
+      color: #666;
+    }
+  }
+}
